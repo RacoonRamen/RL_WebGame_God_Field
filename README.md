@@ -1,6 +1,5 @@
 # RL WebGame God Field
 ## [Game Link](https://godfield.net/) 
-![image](https://user-images.githubusercontent.com/75330475/205007923-33abe68f-c01c-484b-89e3-cc593afa4c41.png)
 
 # GYM Custom Enviroment
 ## 遊戲元素條件:
@@ -35,9 +34,16 @@
 * Next(跳過)
 * Play(出牌)
 ## Step:
-![image](https://user-images.githubusercontent.com/75330475/205533736-e4802011-e8ef-42a6-9cbe-a40222574a00.png)
+![image](https://user-images.githubusercontent.com/75330475/205606425-7e670642-f1af-4203-bd02-6731b12b9237.png)
 
 ### 每次會先對單張卡牌Obs.後再決定Action，在此方法下可以單局選擇多張牌一次打出，也可選擇單張或零張牌
+
+## Reward
+* 上次血量總和 > 本次的血量總和(血量、金錢、魔力) = -5 反之則 +5
+* 敵人血量總和 < 敵人本次血量總和 < +5 反之則 -5
+* 玩家死亡 -100
+* 敵人死亡 +100
+* 手牌比上次的多 +1 (由於可以廢卡，所以加這項獎勵讓AI不隨意丟棄卡)
 # 目前進度
 
 - [X]  環境架設完成
