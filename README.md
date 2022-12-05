@@ -2,6 +2,8 @@
 ## [Game Link](https://godfield.net/) 
 
 # GYM Custom Enviroment
+![image](https://user-images.githubusercontent.com/75330475/205609978-86e82fb1-eb86-496e-8d33-a3a10685932e.png)
+
 ## 遊戲元素條件:
 ### 卡牌類型
 * 交易->價錢
