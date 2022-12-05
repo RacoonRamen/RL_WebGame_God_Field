@@ -1,4 +1,5 @@
 # RL WebGame God Field
+## [Game Link](https://godfield.net/) 
 ![image](https://user-images.githubusercontent.com/75330475/205007923-33abe68f-c01c-484b-89e3-cc593afa4c41.png)
 
 # GYM Custom Enviroment
@@ -30,7 +31,20 @@
 * emy : 敵人的金錢
 * my_atk : 敵人的攻擊力
 ### Action Space
+* Choose(選牌)
+* Next(跳過)
 * Play(出牌)
-* Pass(跳過)
-* 
+## Step:
+![image](https://user-images.githubusercontent.com/75330475/205533736-e4802011-e8ef-42a6-9cbe-a40222574a00.png)
+
+### 每次會先對單張卡牌Obs.後再決定Action，在此方法下可以單局選擇多張牌一次打出，也可選擇單張或零張牌
+# 目前進度
+
+ [X]  環境架設完成
+[x]環境測試完成
+[x]模擬測試完成
+[ ]發現BUG尚未修復 2022/12/1
+
+
+
 
